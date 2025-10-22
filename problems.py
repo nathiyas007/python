@@ -30,8 +30,7 @@ without_fun("Emma-is-a-data-scientist")
 def reverse_word(word):
     print(word[::-1])
 reverse_word("python")
-
-wihtout function 
+ 
 
 def reverse_srt(word):
     reverse_word = ""
