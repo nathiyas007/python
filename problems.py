@@ -1,4 +1,4 @@
-1 with function
+# 1 with function
 def split_sentence(sentence):
     s = sentence.split("-")  
     for sp in s:
@@ -8,7 +8,7 @@ sentence = "Today-heavy-rain-in-chennai"
 split_sentence(sentence)
 
 
-2 without function
+# 2 without function
 
 
 
@@ -25,7 +25,7 @@ def without_fun(sentence):
 without_fun("Emma-is-a-data-scientist")
 
 
-2
+# 2
 
 def reverse_word(word):
     print(word[::-1])
@@ -43,7 +43,7 @@ def reverse_srt(word):
 reverse_srt("Pyhton")
 
 
-3
+# 3
 def count_cons(word):
     count = 0
     for i in range(len(word)):
@@ -54,7 +54,7 @@ def count_cons(word):
 count_cons("Hello World")
 
 
-4
+# 4
 def remove_space(text):
     new_text = ""
     for char in text:
@@ -65,7 +65,7 @@ def remove_space(text):
 remove_space("Python is awesome")
 
 
-5
+# 5
 
 def is_strong_password(password):
     special_characters = "!@#$%^&*"
